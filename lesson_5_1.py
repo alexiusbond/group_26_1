@@ -21,6 +21,6 @@ print(db_url)
 
 number = config('MY_NUMBER', cast=int)
 print(number * 2)
-
+# Hi Sensei
 commented_text = config('COMMENTED', default='Intead')
 print(commented_text)
